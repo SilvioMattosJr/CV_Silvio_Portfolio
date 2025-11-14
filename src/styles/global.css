@@ -878,6 +878,7 @@ body {
   
   /* Navegação inferior para mobile */
   .main-navigation {
+    display: flex; /* Garante que o container seja um Flexbox */
     position: fixed;
     bottom: 0px;
     right: 0px;
@@ -887,8 +888,8 @@ body {
     width: auto;
     border-radius: none;
     padding: 0.6rem;
-    justify-content: space-around;
     z-index: 1000;
+    gap: 3px;
   }
   
   .nav-btn {
