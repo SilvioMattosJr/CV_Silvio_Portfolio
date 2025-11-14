@@ -9,6 +9,7 @@ body {
   background-color: #f4f4f9;
   background-image: var(--bg-color);
   color: #333;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Container principal do CV */
@@ -272,6 +273,7 @@ body.dark-theme {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .cv-container {
@@ -860,6 +862,7 @@ body {
   /* Ajustes gerais */
   body {
     padding-bottom: 70px; /* Espaço para a navegação inferior */
+    -webkit-tap-highlight-color: transparent;
   }
   
   .cv-container {
